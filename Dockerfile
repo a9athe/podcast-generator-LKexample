@@ -11,6 +11,6 @@ RUN pip3 install PyYAML
 COPY feed.py /usr/bin/feed.py
 #copy from the repo to the virtual machine
 COPY entrypoint.sh /entrypoint.sh 
-#creates a new file
+
 
 ENTRYPOINT ["/entrypoint.sh"]
